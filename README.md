@@ -105,4 +105,4 @@ If you want to discover some other features that can be used with Keycloak, chec
 
 https://github.com/Acosix/alfresco-keycloak
 
-Additional details are provided by @AFaust in TTL #133: https://www.alfresco.com/events/webinars/tech-talk-live-133
+Additional details are provided by [@AFaust](https://github.com/afaust) in TTL #133: https://www.alfresco.com/events/webinars/tech-talk-live-133
