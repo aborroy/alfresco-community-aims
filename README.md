@@ -35,26 +35,31 @@ $ docker-compose up --build --force-recreate
 
 http://localhost:8080/
 
-ADW
+ACA
+
 * user: admin
 * password: admin
 
 http://localhost:8080/share
 
 Share
+
 * user: admin
 * password: admin
 
 http://localhost:8080/alfresco
 
 Alfresco Repository
+
 * user: admin
 * password: admin
 
 http://localhost:8999
 
-Kibana
-No credentials
+Keycloak
+
+* user: admin
+* password: admin
 
 **Default configuration for AIMS**
 
