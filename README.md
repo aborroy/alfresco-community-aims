@@ -12,6 +12,7 @@ Docker Compose template includes following files:
 
 ```
 .
+├── .env
 ├── config
 │   ├── alfresco-realm.json
 │   └── nginx.conf
@@ -24,8 +25,11 @@ Docker Compose template includes following files:
 * `config/alfresco-realm.json` includes a sample configuration for Alfresco Identity Service, since you can create your own configuration using the Keycloak Admin Web Page
 * `config/nginx.conf` includes configuration for the NGINX Web Proxy
 * `search/Dockerfile` is an extension for Alfresco Search Services Docker Image
+* `.env` includes Docker Image tag names and a HOST_IP variable (remember to add your local computer IP to this property before running the project)
 
 ## Using
+
+>> Note: Add your local computer IP to `.env` variable HOST_IP before running Docker Compose.
 
 ```
 $ docker-compose up --build --force-recreate
